@@ -1,0 +1,18 @@
+from tkinter import *
+window = Tk()
+
+frame = Frame(master=window, bg="red", height=100, width=1000)
+frame.pack()
+frame2 = Frame(master=window, bg="blue", height=50, width=500)
+frame2.pack()
+frame3 = Frame(master=window, bg="yellow", height=25, width=250)
+frame3.pack()
+frame4 = Frame(master=window, bg="pink", height=20, width=20)
+frame4.pack()
+frame5 = Frame(master=window, bg="brown", height=15, width=150)
+frame5.pack()
+frame6 = Frame(master=window, bg="orange", height=10, width=100)
+frame6.pack()
+frame7 = Frame(master=window, bg="black", height=5, width=50)
+frame7.pack()
+window.mainloop()
